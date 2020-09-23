@@ -1,0 +1,283 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #181F2B;
+  color: white;
+  background-image: url("./qosh.png");
+background-repeat: no-repeat;
+background-position: left 50px top 30px;
+
+font-family: "Open Sans", sans-serif;
+}
+.contenr{
+  max-width: 1220px;
+  padding: 20px;
+}
+.comments-menu{
+  margin-top: 40px;
+
+margin-bottom: 100px;
+
+}
+.comment{
+  list-style: none;
+  margin: 0;
+  width: 360px;
+  padding: 40px 30px;
+  background: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+border-radius: 3.93258px;
+}
+.comment p{
+  padding: 0;
+}
+.comment-p{
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+
+}
+.comment-poople{
+  display: flex;
+  align-items:center;
+}
+.poople h4 {
+margin: 0;
+padding: 0;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+.poople p{
+  margin: 0;
+  font-size: 7px;
+line-height: 10px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+page-break-after: 0;
+}
+.poople{
+  margin-left: 15px;
+}
+.comments{
+  display: flex;
+  justify-content: space-between;
+}
+.contenr1{
+  width: 863px;
+  padding: 42px 72px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 15px;
+text-align: center;
+margin-bottom: 200px;
+background: #1B2330;
+}
+input{
+  width: 480px;
+  height: 48px;
+  background: #FFFFFF;
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+border-radius: 24px;
+border: 1px solid white;
+padding: 20px;
+}
+.button{
+  padding: 15px 26px;
+  width: 200px;
+  font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+margin-left: 30px;
+color: #FFFFFF;
+background-color: lightskyblue;
+border: none;
+border-radius: 30px;
+}
+.contenr1 h2{
+  margin-bottom: 16px;
+  font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+margin: 0;
+color: #FFFFFF;
+
+}
+.contenr1 p{
+  font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+margin-bottom: 35px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.contenr2{
+ max-width: 1220px;
+ padding: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+margin-bottom: 100px;
+}
+.house::before{
+  content: "";
+  background-image: url("./rayon.png");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.house p{
+  width: 339px;
+  font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+padding: 0;
+margin: 0;
+
+color: #FFFFFF;
+}
+.rayon{
+display: flex;
+align-items: center;
+}
+.house {
+  display: flex;
+  align-items:center;
+}
+.email-phone{
+  width: 170px;
+}
+.phone::before{
+content: "";
+background-image: url("./tel.png");
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+.phone{
+  align-items: center;
+margin: 0;
+margin-bottom: 20px;
+}
+.email::before{
+  content: "";
+  background-image: url("./email.png");
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+
+}
+.email{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.about{
+margin: 0;
+width: 100px;
+width: 69px;
+list-style: none;
+}
+.contact{
+  margin: 0;
+padding: 0;
+
+
+width: 69px;
+list-style: none;
+}
+.about a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-bottom: 16px;
+  width: 100px;
+}
+.contact a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 16px;
+  display: inline-block;
+  width: 100px;
+}
+.links{
+  margin: 0;
+  justify-content: space-between;
+  width: 120px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.links a{
+  text-decoration: none;
+
+}
+.logo{
+  margin-bottom: 0;
+}
+.logo img{
+  width: 176px;
+  height: 52px;
+}
+.links img{
+  width: 32px;
+  height: 31px;
+}
+.comment-poople img{
+  width: 24px;
+  height: 24px;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+/* shu yerda stillar yoziladi */
+body{
+  background-image: url("./qosh@2x.png");
+}
+  .email::before{
+    content: "";
+    background-image: url("./email@2x.png");
+  }
+  .phone::before{
+    content: "";
+    background-image: url("./tel@2x.png");}
+    .house::before{
+      content: "";
+      background-image: url("./rayon@2x.png");}
+}
