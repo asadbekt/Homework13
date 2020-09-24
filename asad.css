@@ -205,8 +205,7 @@ margin-bottom: 20px;
 }
 .about{
 margin: 0;
-width: 100px;
-width: 69px;
+
 list-style: none;
 }
 .contact{
@@ -214,7 +213,6 @@ list-style: none;
 padding: 0;
 
 
-width: 69px;
 list-style: none;
 }
 .about a{
